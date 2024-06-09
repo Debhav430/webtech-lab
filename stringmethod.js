@@ -1,0 +1,14 @@
+var text="this is bsc csit lab work";
+ console.log("the length of the string is",text.length);
+console.log(text.charAt(4));
+console.log(text.charCodeAt(4));
+console.log(text.charAt(4));
+console.log(part = text.slice(7, 13));
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+//  fruits.push("kiwi");
+// fruits.pop("Mango");
+// let fruit = fruits.shift();
+fruits.unshift("Lemon");
+document.getElementById("demo").innerHTML = fruits.toString();
+//document.getElementById("demo").innerHTML = size.toString();
